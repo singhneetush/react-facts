@@ -4,6 +4,8 @@
 
 body {
 	background-color: #282c34;
+	width: 100vw;
+	/* overflow-x: hidden; */
 }
 .Nav {
 	display: flex;
@@ -65,4 +67,28 @@ body {
 	text-align: center;
 	color: rgba(255, 249, 249, 0.795);
 	font-family: 'Public Sans', sans-serif;
+}
+
+/* CARD.css */
+
+.Card {
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: column;
+	width: 100%;
+	height: max-content;
+	padding: 10px;
+	margin: 20px;
+}
+
+.new {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	width: 100vw;
+	height: max-content;
+	text-align: center;
+	font-family: 'Public Sans', sans-serif;
+
+	background-color: white;
 }
