@@ -1,13 +1,15 @@
 import React from 'react';
-import './NavBar.css';
+// import './NavBar.css';
+import './App.css';
+
 import logo from './logo.svg';
 
 const NavBar = () => {
 	return (
-		<div className='Nav'>
+		<div style={{ backgroundColor: '#202225c5' }} className='Nav'>
 			<div className='Nav-Header'>
 				<img src={logo} className='App-logo' alt='logo' />
-				<h1 style={{ marginLeft: '10px'}}>React-Fun-Facts</h1>
+				<h1 style={{ marginLeft: '10px' }}>React-Fun-Facts</h1>
 			</div>
 
 			<div className='Nav-List'>

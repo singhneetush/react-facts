@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@700&family=Lato:wght@700;900&family=Public+Sans:wght@300;700&family=Ubuntu:wght@700&display=swap');
+
+/* NavBar.css */
+
+body {
+	background-color: #282c34;
+}
+.Nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
+	color: aqua;
+}
+.Nav-Header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	margin-right: 30px;
+	width: 33.33%;
+	font-family: 'Cormorant SC', serif;
+	font-size: 1.5em;
+}
+
+.Nav-List {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-direction: row;
+	margin-right: 30px;
+	width: 33.33%;
+	font-family: 'Public Sans', sans-serif;
+}
+
+.Nav-List > h3:hover {
+	color: white;
+	-webkit-transform: scale(1.2);
+}
+
+/* ReactDescCard.css */
+
+.Desc-Card {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	width: max-content;
+	height: 20vh;
+	text-align: center;
+	margin-left: 35em;
+	margin-top: 0;
+	padding: 10px;
+}
+
+.Desc-Card > div {
+	font-size: 3.5em;
+	color: rgb(13, 170, 170);
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+	letter-spacing: 7px;
+}
+
+.Desc-Card > p {
+	font-size: 2em;
+	text-align: center;
+	color: rgba(255, 249, 249, 0.795);
+	font-family: 'Public Sans', sans-serif;
+}

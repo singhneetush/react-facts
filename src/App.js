@@ -1,11 +1,14 @@
-import './App.css';
-import NavBar from './components/Navigation-Bar/NavBar';
+// import './App.css';
+
+import './index.css';
+import NavBar from './components/NavBar';
+import ReactDescCard from './components/ReactDescCard';
 
 function App() {
 	return (
-		<div className='App'>
+		<div>
 			<NavBar />
-			<header className='App-header'></header>
+			<ReactDescCard />
 		</div>
 	);
 }
